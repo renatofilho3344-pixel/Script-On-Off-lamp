@@ -3,7 +3,7 @@ local Spotlight = game.lamp:WaitForChild("Spotlight") --- Spotlight inside of La
 local prompt = script.Parent:WaitForChild("ProximityPrompt") --- ProximityPrompt Inside of the switch
 local On = false --- starts off
 
-prompt.Triggered:Connect(function(player) --- when player triggers the propmpt then do and action
+prompt.Triggered:Connect(function(player) --- when player triggers the propmpt then do an action
   
    if On == false then -- if It is off then it turns on
       lamp.Color = Color3.new(1, 1, 1) --- Makes the lamp white
