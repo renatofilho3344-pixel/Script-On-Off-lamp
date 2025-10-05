@@ -17,4 +17,5 @@ prompt.Triggered:Connect(function(player)
          wait(0.1)
       end
    end
+   prompt.Enabled = true
 end)
