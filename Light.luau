@@ -3,7 +3,7 @@
 local Lamp = game.Workspace:WaitForChild("Lamp")
 local Prompt = script.Parent:WaitForChild("Proximity prompt)
 local Spotlight = Lamp.SpotLight
-local On = false ----- the lamp should start false
+local On = false --- the lamp should start false
 
 prompt.Triggered:Connect(function(player)
    if On == false then
