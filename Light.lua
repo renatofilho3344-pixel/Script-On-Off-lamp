@@ -1,4 +1,4 @@
---this script is for you light switch to turn
+-this script is for you light switch to turn
 
 local Lamp = game.Workspace:WaitForChild("Lamp")
 local Prompt = script.Parent:WaitForChild("Proximity prompt)
