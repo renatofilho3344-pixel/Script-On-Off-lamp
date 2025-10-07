@@ -1,4 +1,4 @@
-local Part = game.Workspace:Wait for child("Part")
+local Part = game.Workspace:WaitForChild"Part")
 local duration = 0.4
 
 while true do
