@@ -1,5 +1,8 @@
 local Trash = script.Parent
-local prompt = script.Parent:WaitForchild("ProximityPrompt")
+local prompt = Trash.ProximityPrompt
+
+prompt.ActionText = "Clean trash"
+prompt.HoldDuration = 3
 
 prompt.Triggered:Connect(function(player)
    prompt.Enabled = false
